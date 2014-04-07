@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: spring-boot-starter-test-1.0.0.RELEASE">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/1.0.0.RELEASE/f63695a1bc6139522cfac510c2fa7af5c7b4e245/spring-boot-starter-test-1.0.0.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-test/1.0.0.RELEASE/272cacd8120f4f3fe5b994404ba1f3bac32ed312/spring-boot-starter-test-1.0.0.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
