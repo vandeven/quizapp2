@@ -10,5 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
  * Created by Ties on 07/04/2014.
  */
 @Controller
+@RequestMapping("/default")
 public class DefaultController {
 }

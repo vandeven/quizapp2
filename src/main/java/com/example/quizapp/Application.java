@@ -2,8 +2,6 @@ package com.example.quizapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.boot.context.embedded.ServletRegistrationBean;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
@@ -14,14 +12,12 @@ import org.springframework.context.annotation.Configuration;
 @EnableAutoConfiguration
 @ComponentScan
 public class Application {
-
-    public static void main(String[] args) throws Exception {
-        SpringApplication.run(Application.class, args);
-    }
-
-/*    @Bean
-    public ServletRegistrationBean getServletRegistrationBean(){
-        ServletRegistrationBean bean = new ServletRegistrationBean();
-    return bean;
-    }*/
+	
+	public static void main(String[] args) throws Exception {
+		SpringApplication.run(Application.class, args);
+	}
+	
+	/*
+	 * @Bean public ServletRegistrationBean getServletRegistrationBean(){ ServletRegistrationBean bean = new ServletRegistrationBean(); return bean; }
+	 */
 }
